@@ -91,6 +91,10 @@ export default function ItemList({ items }: { items: Item[] }) {
                     <p className="item-source">{sourceLabel(item.source_id)}</p>
                     <a className="title" href={item.url} target="_blank" rel="noreferrer">
                       {item.title?.trim() || item.url}
+                      <span className="external" aria-hidden="true">
+                        ↗
+                      </span>
+                      <span className="sr-only"> (opens the original in a new tab)</span>
                     </a>
                     {summary && <p className="summary">{summary}</p>}
                     {item.tags.length > 0 && (

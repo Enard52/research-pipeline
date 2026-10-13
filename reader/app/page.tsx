@@ -19,7 +19,7 @@ export default async function Home() {
       <header className="topbar">
         <div className="shell topbar-inner">
           <div className="brand">
-            <span className="mark" aria-hidden="true">RP</span>
+            <span className="mark" aria-hidden="true">O</span>
             <span>
               <span className="brand-name">Research Pipeline</span>
               <span className="brand-org">OSU Crypto Club · Research cohort</span>
